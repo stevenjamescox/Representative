@@ -15,6 +15,7 @@
 		68BABCEE1CD9ACA4001AC1FB /* RepresentativeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BABCED1CD9ACA4001AC1FB /* RepresentativeUITests.swift */; };
 		68BABCFC1CD9ACCC001AC1FB /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BABCFB1CD9ACCC001AC1FB /* StateController.swift */; };
 		95382FBC1D076D5D0094937E /* Representative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95382FBB1D076D5D0094937E /* Representative.swift */; };
+		95382FBF1D0770090094937E /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95382FBE1D0770090094937E /* NetworkController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		68BABCEF1CD9ACA4001AC1FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68BABCFB1CD9ACCC001AC1FB /* StateController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
 		95382FBB1D076D5D0094937E /* Representative.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Representative.swift; path = Representative/Representative.swift; sourceTree = "<group>"; };
+		95382FBE1D0770090094937E /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkController.swift; path = ../NetworkController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				68BABCCC1CD9ACA4001AC1FB /* Representative */,
-				95382FBD1D076D600094937E /* Models */,
 				68BABCCD1CD9ACA4001AC1FB /* AppDelegate.swift */,
 				68BABCD41CD9ACA4001AC1FB /* Assets.xcassets */,
 				68BABCD91CD9ACA4001AC1FB /* Info.plist */,
@@ -106,6 +107,7 @@
 				95382FB81D076D310094937E /* View */,
 				95382FB91D076D3A0094937E /* View Controllers */,
 				95382FBA1D076D440094937E /* Non-View Controllers */,
+				95382FBD1D076D600094937E /* Models */,
 			);
 			path = Representative;
 			sourceTree = "<group>";
@@ -147,6 +149,7 @@
 		95382FBA1D076D440094937E /* Non-View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				95382FBE1D0770090094937E /* NetworkController.swift */,
 				68BABCFB1CD9ACCC001AC1FB /* StateController.swift */,
 			);
 			name = "Non-View Controllers";
@@ -158,6 +161,7 @@
 				95382FBB1D076D5D0094937E /* Representative.swift */,
 			);
 			name = Models;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95382FBF1D0770090094937E /* NetworkController.swift in Sources */,
 				95382FBC1D076D5D0094937E /* Representative.swift in Sources */,
 				68BABCD01CD9ACA4001AC1FB /* ViewController.swift in Sources */,
 				68BABCFC1CD9ACCC001AC1FB /* StateController.swift in Sources */,
