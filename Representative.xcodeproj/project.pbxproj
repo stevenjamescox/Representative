@@ -16,7 +16,7 @@
 		68BABCFC1CD9ACCC001AC1FB /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BABCFB1CD9ACCC001AC1FB /* StateController.swift */; };
 		95382FBC1D076D5D0094937E /* Representative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95382FBB1D076D5D0094937E /* Representative.swift */; };
 		95382FBF1D0770090094937E /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95382FBE1D0770090094937E /* NetworkController.swift */; };
-		95382FC11D0773650094937E /* RepresenativeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95382FC01D0773650094937E /* RepresenativeController.swift */; };
+		95382FC11D0773650094937E /* RepresentativeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95382FC01D0773650094937E /* RepresentativeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 		68BABCFB1CD9ACCC001AC1FB /* StateController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
 		95382FBB1D076D5D0094937E /* Representative.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Representative.swift; path = Representative/Representative.swift; sourceTree = "<group>"; };
 		95382FBE1D0770090094937E /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkController.swift; path = ../NetworkController.swift; sourceTree = "<group>"; };
-		95382FC01D0773650094937E /* RepresenativeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepresenativeController.swift; sourceTree = "<group>"; };
+		95382FC01D0773650094937E /* RepresentativeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepresentativeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,7 +153,7 @@
 			children = (
 				95382FBE1D0770090094937E /* NetworkController.swift */,
 				68BABCFB1CD9ACCC001AC1FB /* StateController.swift */,
-				95382FC01D0773650094937E /* RepresenativeController.swift */,
+				95382FC01D0773650094937E /* RepresentativeController.swift */,
 			);
 			name = "Non-View Controllers";
 			sourceTree = "<group>";
@@ -303,7 +303,7 @@
 				68BABCD01CD9ACA4001AC1FB /* ViewController.swift in Sources */,
 				68BABCFC1CD9ACCC001AC1FB /* StateController.swift in Sources */,
 				68BABCCE1CD9ACA4001AC1FB /* AppDelegate.swift in Sources */,
-				95382FC11D0773650094937E /* RepresenativeController.swift in Sources */,
+				95382FC11D0773650094937E /* RepresentativeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
