@@ -26,16 +26,12 @@ class NetworkController {
             completion(data: data)
                 return
             }
-            
         }
-
         task.resume()
     }
     
-    
-    
-    
-    
-    
-    
+    static func jsonFromData(data:NSData, completion: (json: [String: AnyObject]?) -> Void){
+        let json = (try? NSJSONSerialization.JSONObjectWithData(data, options: .AllowFragments)) as? [String: AnyObject]
+        completion(json: json)
+    }
 }
