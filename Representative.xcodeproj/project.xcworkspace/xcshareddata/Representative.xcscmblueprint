@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F12A35D054412864BFDD69FD4A67C5E932D7A220",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3BFF0E36D0B514ABCA0748E722872EAA09ED3726" : 0,
+    "F12A35D054412864BFDD69FD4A67C5E932D7A220" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6C5679F8-D5D0-41B5-821E-9E57CA66A716",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3BFF0E36D0B514ABCA0748E722872EAA09ED3726" : "",
+    "F12A35D054412864BFDD69FD4A67C5E932D7A220" : "Representative\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Representative",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Representative.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/stevenjamescox\/Module-17.2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3BFF0E36D0B514ABCA0748E722872EAA09ED3726"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/stevenjamescox\/Representative.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F12A35D054412864BFDD69FD4A67C5E932D7A220"
+    }
+  ]
+}
