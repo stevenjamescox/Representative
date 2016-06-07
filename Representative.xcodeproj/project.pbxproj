@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		68BABCCE1CD9ACA4001AC1FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BABCCD1CD9ACA4001AC1FB /* AppDelegate.swift */; };
-		68BABCD01CD9ACA4001AC1FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BABCCF1CD9ACA4001AC1FB /* ViewController.swift */; };
 		68BABCD31CD9ACA4001AC1FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68BABCD11CD9ACA4001AC1FB /* Main.storyboard */; };
 		68BABCD51CD9ACA4001AC1FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68BABCD41CD9ACA4001AC1FB /* Assets.xcassets */; };
 		68BABCE31CD9ACA4001AC1FB /* RepresentativeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BABCE21CD9ACA4001AC1FB /* RepresentativeTests.swift */; };
@@ -17,6 +16,8 @@
 		95382FBC1D076D5D0094937E /* Representative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95382FBB1D076D5D0094937E /* Representative.swift */; };
 		95382FBF1D0770090094937E /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95382FBE1D0770090094937E /* NetworkController.swift */; };
 		95382FC11D0773650094937E /* RepresentativeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95382FC01D0773650094937E /* RepresentativeController.swift */; };
+		95382FC31D077FED0094937E /* StateListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95382FC21D077FED0094937E /* StateListTableViewController.swift */; };
+		95382FC51D077FFA0094937E /* RepListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95382FC41D077FFA0094937E /* RepListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,6 @@
 /* Begin PBXFileReference section */
 		68BABCCA1CD9ACA4001AC1FB /* Representative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Representative.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68BABCCD1CD9ACA4001AC1FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Representative/AppDelegate.swift; sourceTree = "<group>"; };
-		68BABCCF1CD9ACA4001AC1FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		68BABCD21CD9ACA4001AC1FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		68BABCD41CD9ACA4001AC1FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Representative/Assets.xcassets; sourceTree = "<group>"; };
 		68BABCD91CD9ACA4001AC1FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Representative/Info.plist; sourceTree = "<group>"; };
@@ -53,6 +53,8 @@
 		95382FBB1D076D5D0094937E /* Representative.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Representative.swift; path = Representative/Representative.swift; sourceTree = "<group>"; };
 		95382FBE1D0770090094937E /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkController.swift; path = ../NetworkController.swift; sourceTree = "<group>"; };
 		95382FC01D0773650094937E /* RepresentativeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepresentativeController.swift; sourceTree = "<group>"; };
+		95382FC21D077FED0094937E /* StateListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StateListTableViewController.swift; path = ../StateListTableViewController.swift; sourceTree = "<group>"; };
+		95382FC41D077FFA0094937E /* RepListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RepListTableViewController.swift; path = ../RepListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,7 +145,8 @@
 		95382FB91D076D3A0094937E /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				68BABCCF1CD9ACA4001AC1FB /* ViewController.swift */,
+				95382FC41D077FFA0094937E /* RepListTableViewController.swift */,
+				95382FC21D077FED0094937E /* StateListTableViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -299,8 +302,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				95382FBF1D0770090094937E /* NetworkController.swift in Sources */,
+				95382FC51D077FFA0094937E /* RepListTableViewController.swift in Sources */,
+				95382FC31D077FED0094937E /* StateListTableViewController.swift in Sources */,
 				95382FBC1D076D5D0094937E /* Representative.swift in Sources */,
-				68BABCD01CD9ACA4001AC1FB /* ViewController.swift in Sources */,
 				68BABCFC1CD9ACCC001AC1FB /* StateController.swift in Sources */,
 				68BABCCE1CD9ACA4001AC1FB /* AppDelegate.swift in Sources */,
 				95382FC11D0773650094937E /* RepresentativeController.swift in Sources */,
