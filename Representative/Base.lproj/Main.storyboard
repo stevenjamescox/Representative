@@ -138,6 +138,15 @@
                                         <constraint firstAttribute="bottom" secondItem="GJI-W9-OVl" secondAttribute="bottom" constant="8" id="sq7-Fw-5j3"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="districtOutlet" destination="hwM-JM-gcP" id="8gH-cK-5bO"/>
+                                    <outlet property="linkOutlet" destination="hwM-JM-gcP" id="KoI-dC-7pf"/>
+                                    <outlet property="nameOutlet" destination="hwM-JM-gcP" id="kz9-O7-eid"/>
+                                    <outlet property="officeOutlet" destination="hwM-JM-gcP" id="wbY-td-DoN"/>
+                                    <outlet property="partyOutlet" destination="hwM-JM-gcP" id="A8p-cE-Ah4"/>
+                                    <outlet property="phoneOutlet" destination="hwM-JM-gcP" id="aXM-s1-XH4"/>
+                                    <outlet property="stateOutlet" destination="hwM-JM-gcP" id="AMr-mr-ew4"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>

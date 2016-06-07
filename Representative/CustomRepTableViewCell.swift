@@ -15,6 +15,14 @@ class CustomRepTableViewCell: UITableViewCell {
         // Initialization code
     }
 
+    @IBOutlet weak var nameOutlet: UIView!
+    @IBOutlet weak var districtOutlet: UIView!
+    @IBOutlet weak var phoneOutlet: UIView!
+    @IBOutlet weak var officeOutlet: UIView!
+    @IBOutlet weak var linkOutlet: UIView!
+    @IBOutlet weak var stateOutlet: UIView!
+    @IBOutlet weak var partyOutlet: UIView!
+    
     override func setSelected(selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
