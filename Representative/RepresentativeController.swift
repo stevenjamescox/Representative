@@ -18,7 +18,7 @@ class RepresentativeController {
     
     static func searchRepsByState(state: String, completion: (representatives: [Representative]) -> Void ) {
     
-        let url = String(searchURLByState(state))
+        let url = searchURLByState(state)
         
             NetworkController.dataAtURL(url) { (data) in
             
@@ -32,7 +32,7 @@ class RepresentativeController {
             // Step 5 = Make sure that the json variable passed back in the completion actually has something in it
             // Step 6 = we go to the specific key in the json we want to read from (in our case it's the "cards" key to go get Array of dictionaries of type [String: AnyObject])
                 
-                guard let json = json, repArray = json["result"] as? [[String: AnyObject]] else { completion(representatives: []) ; return }
+                guard let json = json, repArray = json["results"] as? [[String: AnyObject]] else { completion(representatives: []) ; return }
             // Step 7 = create new instances of our model objects from the array of data (usually a dictionary by flatMapping that array. (in our case we're creating new cards by calling the failable initializer in Card model which wants us to pass in a dictionary. we can do that because our cardArray is an array of dictionaries)
                 
                 let representatives = repArray.flatMap({Representative(dictionary: $0)})

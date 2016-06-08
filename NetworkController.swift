@@ -10,10 +10,12 @@ import Foundation
 
 class NetworkController {
 
-    static func dataAtURL(url: String, completion: (data: NSData?) -> Void) {
-    guard let url = NSURL(string: url) else { completion(data: nil); return }
+    static func dataAtURL(url: NSURL, completion: (data: NSData?) -> Void) {
+   // guard let url = NSURL(string: url) else { completion(data: nil); return }
         
-        let task = NSURLSession.sharedSession().dataTaskWithURL(url) { (data, _, error) in
+        let request = NSMutableURLRequest(URL: url)
+        
+        let task = NSURLSession.sharedSession().dataTaskWithRequest(request) { (data, _, error) in
             
             if let error = error {
             print(error.localizedDescription)

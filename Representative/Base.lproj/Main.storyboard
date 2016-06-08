@@ -23,7 +23,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="dsu-yC-TyP" kind="show" identifier="toStateRepsSegue" id="Q8y-iu-Xao"/>
+                                    <segue destination="dsu-yC-TyP" kind="show" id="R8t-G9-ltt"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

@@ -32,9 +32,8 @@ class StateListTableViewController: UITableViewController {
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if let destinationViewController = segue.destinationViewController as? RepListTableViewController,
-            let selectedIndex = tableView.indexPathForSelectedRow?.row {
-            
-            let state = StateController.states[selectedIndex]
+            let selectedRow = tableView.indexPathForSelectedRow?.row {
+            let state = StateController.states[selectedRow]
             destinationViewController.state = state
         }
     }
