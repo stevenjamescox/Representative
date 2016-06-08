@@ -26,6 +26,7 @@ class RepresentativeController {
                 guard let data = data else { completion(representatives: []); return}
             
             // Step 4 = I have my data, convert to json by passing it through jsonFromData func in NetworkController
+                
                     NetworkController.jsonFromData(data, completion: { (json) in
                 
             // Step 5 = Make sure that the json variable passed back in the completion actually has something in it

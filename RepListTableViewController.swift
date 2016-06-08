@@ -15,6 +15,19 @@ class RepListTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if let state = state {
+
+        RepresentativeController.searchRepsByState(state, completion: { (representatives) in
+                
+        self.representatives = representatives
+                
+        dispatch_async(dispatch_get_main_queue(), {
+                    self.tableView.reloadData()
+        
+                })
+            })
+        }
     }
 
     // MARK: - Table view data source
