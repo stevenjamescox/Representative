@@ -139,13 +139,13 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="districtOutlet" destination="hwM-JM-gcP" id="8gH-cK-5bO"/>
-                                    <outlet property="linkOutlet" destination="hwM-JM-gcP" id="KoI-dC-7pf"/>
-                                    <outlet property="nameOutlet" destination="hwM-JM-gcP" id="kz9-O7-eid"/>
-                                    <outlet property="officeOutlet" destination="hwM-JM-gcP" id="wbY-td-DoN"/>
-                                    <outlet property="partyOutlet" destination="hwM-JM-gcP" id="A8p-cE-Ah4"/>
-                                    <outlet property="phoneOutlet" destination="hwM-JM-gcP" id="aXM-s1-XH4"/>
-                                    <outlet property="stateOutlet" destination="hwM-JM-gcP" id="AMr-mr-ew4"/>
+                                    <outlet property="districtOutlet" destination="HVA-V7-p5b" id="hJc-NT-sWw"/>
+                                    <outlet property="linkOutlet" destination="fe3-xz-In9" id="wvm-PT-92b"/>
+                                    <outlet property="nameOutlet" destination="rxZ-6P-GFu" id="yJf-Ya-gGC"/>
+                                    <outlet property="officeOutlet" destination="YAh-qi-6dR" id="3Ka-Y0-Gjh"/>
+                                    <outlet property="partyOutlet" destination="Zq7-73-eJf" id="D9y-nJ-d9S"/>
+                                    <outlet property="phoneOutlet" destination="Ogb-PO-KgB" id="43j-Bb-kCy"/>
+                                    <outlet property="stateOutlet" destination="Hft-sL-BDc" id="M93-Vy-6Al"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

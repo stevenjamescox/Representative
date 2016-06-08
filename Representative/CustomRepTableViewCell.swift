@@ -15,18 +15,29 @@ class CustomRepTableViewCell: UITableViewCell {
         // Initialization code
     }
 
-    @IBOutlet weak var nameOutlet: UIView!
-    @IBOutlet weak var districtOutlet: UIView!
-    @IBOutlet weak var phoneOutlet: UIView!
-    @IBOutlet weak var officeOutlet: UIView!
-    @IBOutlet weak var linkOutlet: UIView!
-    @IBOutlet weak var stateOutlet: UIView!
-    @IBOutlet weak var partyOutlet: UIView!
+    @IBOutlet weak var nameOutlet: UILabel!
+    @IBOutlet weak var districtOutlet: UILabel!
+    @IBOutlet weak var phoneOutlet: UILabel!
+    @IBOutlet weak var officeOutlet: UILabel!
+    @IBOutlet weak var linkOutlet: UILabel!
+    @IBOutlet weak var stateOutlet: UILabel!
+    @IBOutlet weak var partyOutlet: UILabel!
     
     override func setSelected(selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
     }
-
+    
+    func loadRepInfo(representative: Representative) {
+        
+        nameOutlet.text = "Rep. \(representative.name)"
+        districtOutlet.text = "District #\(representative.district)"
+        phoneOutlet.text = representative.phone
+        officeOutlet.text = representative.office
+        linkOutlet.text = representative.link
+        stateOutlet.text = representative.state
+        partyOutlet.text = representative.party
+    
+    }
 }
