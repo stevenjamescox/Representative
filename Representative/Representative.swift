@@ -26,20 +26,10 @@ class Representative {
     private let kPhone = "phone"
     
     let office: String
-    private let kOffice = "office'"
+    private let kOffice = "office"
     
     let link: String
     private let kLink = "link"
-    
-    init(name: String, party: String, state: String, district: String, phone: String, office: String, link: String) {
-        self.name = name
-        self.party = party
-        self.state = state
-        self.district = district
-        self.phone = phone
-        self.office = office
-        self.link = link
-    }
     
     init?(dictionary: [String: AnyObject]) {
         guard let name = dictionary[kName] as? String,

@@ -15,7 +15,7 @@ class NetworkController {
         
         let request = NSMutableURLRequest(URL: url)
         
-        let task = NSURLSession.sharedSession().dataTaskWithRequest(request) { (data, _, error) in
+        let task = NSURLSession.sharedSession().dataTaskWithRequest(request) { (data, response, error) in
             
             if let error = error {
             print(error.localizedDescription)
