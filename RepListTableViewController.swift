@@ -10,25 +10,25 @@ import UIKit
 
 class RepListTableViewController: UITableViewController {
 
+    var state: String?
+    var representatives: [Representative] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
-
 
     // MARK: - Table view data source
 
-
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
+        return representatives.count
     }
 
-    
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("repCell", forIndexPath: indexPath)
+        let cell = tableView.dequeueReusableCellWithIdentifier("repCell", forIndexPath: indexPath) as? CustomRepTableViewCell ?? CustomRepTableViewCell()
 
-        // Configure the cell...
+        let representative = representatives[indexPath.row]
+        
+        cell.loadRepInfo(representative)
 
         return cell
     }

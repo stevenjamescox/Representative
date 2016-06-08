@@ -15,39 +15,27 @@ class StateListTableViewController: UITableViewController {
 
     }
 
-  
-
     // MARK: - Table view data source
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
+        return StateController.states.count
     }
 
-    
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("stateCell", forIndexPath: indexPath)
-
-
+        let state = StateController.states[indexPath.row]
+        cell.textLabel?.text = state
         return cell
     }
     
-  
-
-
-    
     // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if segue.identifier == "toStateRepsSegue" {
-        
-        
-        
+        if let destinationViewController = segue.destinationViewController as? RepListTableViewController,
+            let selectedIndex = tableView.indexPathForSelectedRow?.row {
+            
+            let state = StateController.states[selectedIndex]
+            destinationViewController.state = state
         }
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
     }
-    
-
 }
